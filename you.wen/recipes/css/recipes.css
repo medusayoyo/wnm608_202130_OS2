@@ -1,0 +1,149 @@
+/* Nav*/
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.topNavBar>nav>ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topNavBar>nav>ul>li{
+	float:left;
+}
+
+.topNavBar>nav>ul>li>a{
+font-size: 20px;
+color:  #07191E ;
+text-decoration: none; 
+}
+
+li{
+margin-left: 18px;
+margin-right: 18px;}
+
+a{
+font-weight: bold;}
+
+.topNavBar>a{
+	float:left;
+}
+
+.topNavBar>li{
+	float:right;
+}
+
+a:hover{ background-color:  #FC9E5E;}
+
+a{ border: 4px solid transparent;}
+
+border-bottom: 4px solid transparent;
+border-bottom: 4px solid #E8676B;
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+a{display: block;}
+
+
+.topNavBar .logo{
+	font-size: 24px;
+	font-family: "henny penny"
+	text-decoration: none; 
+
+}
+
+.topNavBar .logo .rs{
+	margin-right: 5px;
+	color:  #07191E;
+}
+.topNavBar .logo .card{
+	color:  #07191E;
+}
+
+.topNavBar>nav {
+	float:right;
+	padding-top:6px;
+}
+
+.topNavBar .logo{
+	font-size: 30px;
+	font-family: "henny penny"
+	padding-top:9px;
+	padding-bottom: 8px;
+	text-decoration: none; 
+}
+
+.topNavBar{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.topNavBar>nav{
+	float: right;
+	padding-top: 6px;
+}
+
+.topNavBar .logo {
+	font-size:30px;
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+
+.topNavBar{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+body{
+	margin:0;
+	background-color: #EFCED8;
+}
+
+.topNavBar{
+	padding: 20px 16px 20px 16px;
+}
+
+/* Nav*/
+
+
+.banner {
+  height: 400px;
+  max-width: 700px;
+  margin: 40px auto 40px auto;
+  background-color: ;
+  display: flex;
+}
+
+.center-me {
+  color: ;
+  font-size: 50px;
+  margin: auto;
+  margin-right: 200px;
+
+}
+
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+ padding-top: 100px;
+}
+
+.text {
+  background-color:;
+  padding: 20px;
+  flex: 1;
+  font-size: 20px;
+}
+
+.picture {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+} 
