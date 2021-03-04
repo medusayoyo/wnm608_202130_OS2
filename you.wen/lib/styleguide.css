@@ -116,39 +116,98 @@ a:hover {
 
 
 
+
+
+
 /* CARD */
 
 .card {
    background-color:var(--color-white);
-   padding:2em;
-   margin: 2em;
+   padding:1em;
 
-   position:relative;
-   overflow:hidden;
+   margin-bottom:1em;
+   margin-top:1em;
+
+   position:relative; 
+   overflow:hidden; 
 }
 
-   .card.soft {
-      border-radius:0.5em;
-      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-   }
-   .card.hard {
-      border-radius:0.2em;
-      border:2px solid var(--color-neutral-medium);
-   }
-   .card.dark {
-      background-color:var(--color-neutral-dark);
-      color:var(--color-white);
-   }
-   .card.medium {
-      background-color:var(--color-neutral-medium);
-   }
-
-   .card.flat {
-      padding:0;
-   }
 
 
 
-   .card>:first-child { margin-top:0; }
-   .card>:last-child { margin-bottom:0; }
+.card.soft {
+   border-radius:0.5em;
+   box-shadow:3px 4px 10px 3px rgb(0, 0, 0, .08); 
+}
+
+.card.hard {
+   border-radius:0.2em;
+   border:2px solid var(--color-neutral-medium);
+}
+
+.card.dark {
+   background-color:var(--color-neutral-dark);
+   color:var(--color-white);
+}
+
+.card.medium {
+   background-color:var(--color-neutral-medium);
+}
+
+.card.flat {
+   padding:0;
+}
+
+.card.features {
+   background-color:var(--color-white);
+   float: ;
+   box-shadow:3px 4px 10px 3px rgb(0, 0, 0, .08);
+   border-radius:0.5em;
+   margin: 2em 1em 1em 1em;
+   padding: 2em;
+   text-align: center;
+   color: black;
+    width: 95%;
+
+}
+
+
+
+
+
+/* BUTTONS */
+
+.button.dark {
+   background-color: var(--color-neutral-dark);
+   border:none;
+   color:white;
+   padding: 1em 2em;
+   text-align:center;
+   text-decoration:none;
+   display:inline-block;
+   font-size:1.5em;
+}
+
+.button.light {
+   background-color: var(--color-neutral-light);
+   border:none;
+   color:black;
+   padding: 1em 2em;
+   text-align:center;
+   text-decoration:none;
+   display:inline-block;
+   font-size:1.5em;
+}
+
+.button.round {
+   border-radius: .5em;
+   background-color:#f7797d;
+   color:var(--color-white);
+   padding:1em;
+
+}
+
+.grid{ 
+   gap: 50px px;
+}
 

@@ -3,64 +3,144 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cool website</title>
+	<title>Product</title>
 
-	<link rel="stylesheet" type="text/css" href="lib/css/styleguide.css">
+	<link rel="stylesheet" type="text/css" href="lib/styleguide.css">
+    <link rel="stylesheet" href="lib/css/gridsystem.css">
 	<link rel="stylesheet" type="text/css" href="css/storetheme.css">
 
 </head>
 <body>
 <!-- header>h1+p -->
-<header>
-	<h1>COOL</h1>
-	<p>COOLER</p>
-</header>
+<!-- cmd + / -->
+<header class="navbar">
+	<div class="container display-flex flex-align-center" style="margin-top: 0"  >
+		<div class="flex-none">
+	<h1>YOYO Flowers</h1>
+	</div>
+
+        <div class="flex-stretch"></div>
 
 <!-- nav.nav>ul>li*4>a[href=#article$]>{link $} -->
+  <!-- <nav class="nav flex-none"> -->
 
-<nav class="nav">
-	<ul>
-		<li><a href="#article1">link 1</a></li>
-		<li><a href="#article2">link 2</a></li>
-		<li><a href="#article3">link 3</a></li>
-		<li><a href="#article4">link 4</a></li>
+<nav class="nav flex-none">
+	<ul class="display-flex">
+		<li><a href="#article1">Carnation</a></li>
+		<li><a href="#article2">Rose</a></li>
+		<li><a href="#article3">Sunflower</a></li>
+		<li><a href="#article4">Sakura</a></li>
 	</ul>
-</nav>
+   </nav>
+  </div>
+</header>
+
+
+ <div class="view-window display-flex flex-align-center flex-justify-center" style="background-image:url(img/1.png)">
+       <h2 class="huayu">Smell flowers to know a woman</h2>
+    </div>
 
 <!-- .container>article#article$.article*4>h2{Article $}+div.article-body>p*4>lorem40 -->
+
+
+
+<div class="grid">
+	<div class="col-4">
+		<div class="container cards">
+			<div class="card features">
+				<div class="title"><h2>Lavandula angustifolia Mill</h2></div>
+				<div class="image"><img src="img/2.png" width="400px" height="300px"></div>
+					<p>Lavender waited at the place where the angel left, waiting foolishly for him to return, day and night, and finally turned into a plant with lavender flowers. People call it "lavender". In this legend, we can feel the flower language of lavender. Lavender flower language: waiting for love; as long as you breathe hard, you can see miracles; each other; romance; facing hopeless love, still waiting idiotically
+					</p>
+				</div>
+
+				<a href="#" class="button round">Shop now</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+<div class="grid">
+	<div class="col-4">
+		<div class="container cards">
+			<div class="card features">
+				<div class="title"><h2>Rose</h2></div>
+				<div class="image"><img src="img/4.png"width="400px" height="300px"></div>
+					<p>Lavender waited at the place where the angel left, waiting foolishly for him to return, day and night, and finally turned into a plant with lavender flowers. People call it "lavender". In this legend, we can feel the flower language of lavender. Lavender flower language: waiting for love; as long as you breathe hard, you can see miracles; each other; romance; facing hopeless love, still waiting idiotically
+					</p>
+				</div>
+
+				<a href="#" class="button round">Shop now</a>
+			</div>
+         </div>
+      </div>
+
+
+<br>
+<br>
+
+	<div class="view-window display-flex flex-align-center flex-justify-center" style="background-image:url(img/1.png)">
+       <h2 class="huayu">Smell flowers to know a woman</h2>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container">
-	<article id="article1" class="article">
+	<article id="article1" class="article card soft">
 		<h2>Article 1</h2>
-		<div class="article-body"></div>
+		<div class="article-body">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus, voluptatum perferendis aut, nesciunt iure illum earum placeat molestias similique iste, sint dolor veritatis ad! Incidunt voluptate beatae vitae sapiente, voluptatibus adipisci, voluptas sunt iusto architecto dolores, assumenda facilis sint.</p>
 <p>Corporis, dicta rem temporibus! Ipsa, mollitia. Quis in nobis commodi. Qui ab, sunt reprehenderit enim quaerat repellat deleniti voluptates corrupti magni fugit temporibus blanditiis cupiditate voluptatibus ad facere modi perferendis asperiores eveniet illum. Exercitationem, non nam ducimus odit consequuntur voluptates.</p>
 <p>A veniam, corrupti minima non reiciendis qui earum quaerat dolore necessitatibus culpa doloribus, cumque cupiditate soluta, ex praesentium, blanditiis iure deleniti incidunt atque illo voluptate voluptatem ratione esse eos sint. Aspernatur, architecto. Vero cum maiores consequuntur doloribus? Fugit expedita, sunt.</p>
 <p>Repellendus vitae ut eos hic explicabo doloribus quod reprehenderit deleniti veritatis dicta tenetur nobis laboriosam accusamus impedit optio, minus dolor! Porro fugit eos error repudiandae, placeat, numquam nemo? Repudiandae quia, id quas nobis natus numquam explicabo adipisci hic! Eveniet, excepturi.</p>
+</div>
+</article>
 
-<article id="article2" class="article">
+<article id="article2" class="article card hard">
 		<h2>Article 2</h2>
-		<div class="article-body"></div>
+		<div class="article-body">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus, voluptatum perferendis aut, nesciunt iure illum earum placeat molestias similique iste, sint dolor veritatis ad! Incidunt voluptate beatae vitae sapiente, voluptatibus adipisci, voluptas sunt iusto architecto dolores, assumenda facilis sint.</p>
 <p>Corporis, dicta rem temporibus! Ipsa, mollitia. Quis in nobis commodi. Qui ab, sunt reprehenderit enim quaerat repellat deleniti voluptates corrupti magni fugit temporibus blanditiis cupiditate voluptatibus ad facere modi perferendis asperiores eveniet illum. Exercitationem, non nam ducimus odit consequuntur voluptates.</p>
 <p>Repellendus vitae ut eos hic explicabo doloribus quod reprehenderit deleniti veritatis dicta tenetur nobis laboriosam accusamus impedit optio, minus dolor! Porro fugit eos error repudiandae, placeat, numquam nemo? Repudiandae quia, id quas nobis natus numquam explicabo adipisci hic! Eveniet, excepturi.</p>
+</div>
+</article>
 
-<article id="article3" class="article">
+<article id="article3" class="article card medium">
 		<h2>Article 3</h2>
-		<div class="article-body"></div>
+		<div class="article-body">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus, voluptatum perferendis aut, nesciunt iure illum earum placeat molestias similique iste, sint dolor veritatis ad! Incidunt voluptate beatae vitae sapiente, voluptatibus adipisci, voluptas sunt iusto architecto dolores, assumenda facilis sint.</p>
 <p>Corporis, dicta rem temporibus! Ipsa, mollitia. Quis in nobis commodi. Qui ab, sunt reprehenderit enim quaerat repellat deleniti voluptates corrupti magni fugit temporibus blanditiis cupiditate voluptatibus ad facere modi perferendis asperiores eveniet illum. Exercitationem, non nam ducimus odit consequuntur voluptates.</p>
 <p>A veniam, corrupti minima non reiciendis qui earum quaerat dolore necessitatibus culpa doloribus, cumque cupiditate soluta, ex praesentium, blanditiis iure deleniti incidunt atque illo voluptate voluptatem ratione esse eos sint. Aspernatur, architecto. Vero cum maiores consequuntur doloribus? Fugit expedita, sunt.</p>
 <p>Repellendus vitae ut eos hic explicabo doloribus quod reprehenderit deleniti veritatis dicta tenetur nobis laboriosam accusamus impedit optio, minus dolor! Porro fugit eos error repudiandae, placeat, numquam nemo? Repudiandae quia, id quas nobis natus numquam explicabo adipisci hic! Eveniet, excepturi.</p>
+</div>
+</article>
 
-<article id="article4" class="article">
+<article id="article4" class="article card flat">
 		<h2>Article 4</h2>
-		<div class="article-body"></div>
+		<div class="article-body">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus, voluptatum perferendis aut, nesciunt iure illum earum placeat molestias similique iste, sint dolor veritatis ad! Incidunt voluptate beatae vitae sapiente, voluptatibus adipisci, voluptas sunt iusto architecto dolores, assumenda facilis sint.</p>
 <p>Corporis, dicta rem temporibus! Ipsa, mollitia. Quis in nobis commodi. Qui ab, sunt reprehenderit enim quaerat repellat deleniti voluptates corrupti magni fugit temporibus blanditiis cupiditate voluptatibus ad facere modi perferendis asperiores eveniet illum. Exercitationem, non nam ducimus odit consequuntur voluptates.</p>
 <p>A veniam, corrupti minima non reiciendis qui earum quaerat dolore necessitatibus culpa doloribus, cumque cupiditate soluta, ex praesentium, blanditiis iure deleniti incidunt atque illo voluptate voluptatem ratione esse eos sint. Aspernatur, architecto. Vero cum maiores consequuntur doloribus? Fugit expedita, sunt.</p>
 <p>Repellendus vitae ut eos hic explicabo doloribus quod reprehenderit deleniti veritatis dicta tenetur nobis laboriosam accusamus impedit optio, minus dolor! Porro fugit eos error repudiandae, placeat, numquam nemo? Repudiandae quia, id quas nobis natus numquam explicabo adipisci hic! Eveniet, excepturi.</p>
 
-
+</div>
+</article>
 
 
 

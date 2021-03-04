@@ -1,0 +1,25 @@
+
+:root {
+   --color-neutral-light:#f7797d;
+   --color-neutral-medium:#f7797d;
+   --color-neutral-dark:#f7797d;
+}
+
+
+body {
+   background-color:;
+}
+
+
+@font-face{
+    font-family: 'Poiret One Regular';
+    src : url('../fonts/PoiretOneRegula.ttf');
+}
+
+.huayu{
+font-style: Poiret One Regular;
+color: white;
+font-size: 40px
+}
+
+
